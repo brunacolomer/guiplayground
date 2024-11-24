@@ -1,4 +1,4 @@
-# Install script for directory: /home/bruna/GameDev/guiPlayground/third_party/glfw/docs
+# Install script for directory: /home/bruna/GameDev/guiplayground/third_party/glfw/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

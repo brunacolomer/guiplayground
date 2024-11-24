@@ -1,4 +1,4 @@
-# Install script for directory: /home/bruna/GameDev/guiPlayground/third_party/glfw/src
+# Install script for directory: /home/bruna/GameDev/guiplayground/third_party/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,6 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/bruna/GameDev/guiplayground/build/third_party/glfw/src/libglfw3.a")
 endif()
 

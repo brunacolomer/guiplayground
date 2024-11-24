@@ -39,10 +39,18 @@ target_include_directories(implot PUBLIC
 add_library(glad STATIC ${THIRD_PARTY_DIR}/glad/glad.c)
 target_include_directories(glad PUBLIC ${THIRD_PARTY_DIR}/glad)
 
-# Executable principal
-add_executable(ImGuiExample main.cpp)
+# Busca automàticament els fitxers del directori src
+file(GLOB_RECURSE SRC_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 
-# Inclou llibreries i enllaça
+# Executable principal
+add_executable(ImGuiExample ${SRC_FILES})
+
+# Inclou directoris d'encapçalaments
+target_include_directories(ImGuiExample PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}/src
+)
+
+# Enllaça les llibreries necessàries
 target_link_libraries(ImGuiExample
     imgui
     implot

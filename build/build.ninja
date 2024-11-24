@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/bruna/GameDev/guiPlayground/build/
+cmake_ninja_workdir = /home/bruna/GameDev/guiplayground/build/
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target imgui
 
@@ -49,52 +49,52 @@ cmake_ninja_workdir = /home/bruna/GameDev/guiPlayground/build/
 
 build cmake_object_order_depends_target_imgui: phony || CMakeFiles/imgui.dir
 
-build CMakeFiles/imgui.dir/third_party/imgui/backends/imgui_impl_glfw.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiPlayground/third_party/imgui/backends/imgui_impl_glfw.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/third_party/imgui/backends/imgui_impl_glfw.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiplayground/third_party/imgui/backends/imgui_impl_glfw.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/third_party/imgui/backends/imgui_impl_glfw.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/imgui -I/home/bruna/GameDev/guiPlayground/third_party/imgui/backends
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/imgui -I/home/bruna/GameDev/guiplayground/third_party/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/third_party/imgui/backends
 
-build CMakeFiles/imgui.dir/third_party/imgui/backends/imgui_impl_opengl3.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiPlayground/third_party/imgui/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/third_party/imgui/backends/imgui_impl_opengl3.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiplayground/third_party/imgui/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/third_party/imgui/backends/imgui_impl_opengl3.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/imgui -I/home/bruna/GameDev/guiPlayground/third_party/imgui/backends
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/imgui -I/home/bruna/GameDev/guiplayground/third_party/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/third_party/imgui/backends
 
-build CMakeFiles/imgui.dir/third_party/imgui/imgui.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiPlayground/third_party/imgui/imgui.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/third_party/imgui/imgui.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiplayground/third_party/imgui/imgui.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/third_party/imgui/imgui.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/imgui -I/home/bruna/GameDev/guiPlayground/third_party/imgui/backends
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/imgui -I/home/bruna/GameDev/guiplayground/third_party/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/third_party/imgui
 
-build CMakeFiles/imgui.dir/third_party/imgui/imgui_demo.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiPlayground/third_party/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/third_party/imgui/imgui_demo.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiplayground/third_party/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/third_party/imgui/imgui_demo.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/imgui -I/home/bruna/GameDev/guiPlayground/third_party/imgui/backends
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/imgui -I/home/bruna/GameDev/guiplayground/third_party/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/third_party/imgui
 
-build CMakeFiles/imgui.dir/third_party/imgui/imgui_draw.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiPlayground/third_party/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/third_party/imgui/imgui_draw.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiplayground/third_party/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/third_party/imgui/imgui_draw.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/imgui -I/home/bruna/GameDev/guiPlayground/third_party/imgui/backends
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/imgui -I/home/bruna/GameDev/guiplayground/third_party/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/third_party/imgui
 
-build CMakeFiles/imgui.dir/third_party/imgui/imgui_tables.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiPlayground/third_party/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/third_party/imgui/imgui_tables.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiplayground/third_party/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/third_party/imgui/imgui_tables.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/imgui -I/home/bruna/GameDev/guiPlayground/third_party/imgui/backends
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/imgui -I/home/bruna/GameDev/guiplayground/third_party/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/third_party/imgui
 
-build CMakeFiles/imgui.dir/third_party/imgui/imgui_widgets.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiPlayground/third_party/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/third_party/imgui/imgui_widgets.cpp.o: CXX_COMPILER__imgui_Debug /home/bruna/GameDev/guiplayground/third_party/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles/imgui.dir/third_party/imgui/imgui_widgets.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/imgui -I/home/bruna/GameDev/guiPlayground/third_party/imgui/backends
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/imgui -I/home/bruna/GameDev/guiplayground/third_party/imgui/backends
   OBJECT_DIR = CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = CMakeFiles/imgui.dir/third_party/imgui
 
@@ -123,24 +123,24 @@ build libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_Debug CMakeFiles/imgui.dir/th
 
 build cmake_object_order_depends_target_implot: phony || CMakeFiles/implot.dir
 
-build CMakeFiles/implot.dir/third_party/implot/implot.cpp.o: CXX_COMPILER__implot_Debug /home/bruna/GameDev/guiPlayground/third_party/implot/implot.cpp || cmake_object_order_depends_target_implot
+build CMakeFiles/implot.dir/third_party/implot/implot.cpp.o: CXX_COMPILER__implot_Debug /home/bruna/GameDev/guiplayground/third_party/implot/implot.cpp || cmake_object_order_depends_target_implot
   DEP_FILE = CMakeFiles/implot.dir/third_party/implot/implot.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/implot -I/home/bruna/GameDev/guiPlayground/third_party/imgui
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/implot -I/home/bruna/GameDev/guiplayground/third_party/imgui
   OBJECT_DIR = CMakeFiles/implot.dir
   OBJECT_FILE_DIR = CMakeFiles/implot.dir/third_party/implot
 
-build CMakeFiles/implot.dir/third_party/implot/implot_demo.cpp.o: CXX_COMPILER__implot_Debug /home/bruna/GameDev/guiPlayground/third_party/implot/implot_demo.cpp || cmake_object_order_depends_target_implot
+build CMakeFiles/implot.dir/third_party/implot/implot_demo.cpp.o: CXX_COMPILER__implot_Debug /home/bruna/GameDev/guiplayground/third_party/implot/implot_demo.cpp || cmake_object_order_depends_target_implot
   DEP_FILE = CMakeFiles/implot.dir/third_party/implot/implot_demo.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/implot -I/home/bruna/GameDev/guiPlayground/third_party/imgui
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/implot -I/home/bruna/GameDev/guiplayground/third_party/imgui
   OBJECT_DIR = CMakeFiles/implot.dir
   OBJECT_FILE_DIR = CMakeFiles/implot.dir/third_party/implot
 
-build CMakeFiles/implot.dir/third_party/implot/implot_items.cpp.o: CXX_COMPILER__implot_Debug /home/bruna/GameDev/guiPlayground/third_party/implot/implot_items.cpp || cmake_object_order_depends_target_implot
+build CMakeFiles/implot.dir/third_party/implot/implot_items.cpp.o: CXX_COMPILER__implot_Debug /home/bruna/GameDev/guiplayground/third_party/implot/implot_items.cpp || cmake_object_order_depends_target_implot
   DEP_FILE = CMakeFiles/implot.dir/third_party/implot/implot_items.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/implot -I/home/bruna/GameDev/guiPlayground/third_party/imgui
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/implot -I/home/bruna/GameDev/guiplayground/third_party/imgui
   OBJECT_DIR = CMakeFiles/implot.dir
   OBJECT_FILE_DIR = CMakeFiles/implot.dir/third_party/implot
 
@@ -169,10 +169,10 @@ build libimplot.a: CXX_STATIC_LIBRARY_LINKER__implot_Debug CMakeFiles/implot.dir
 
 build cmake_object_order_depends_target_glad: phony || CMakeFiles/glad.dir
 
-build CMakeFiles/glad.dir/third_party/glad/glad.c.o: C_COMPILER__glad_Debug /home/bruna/GameDev/guiPlayground/third_party/glad/glad.c || cmake_object_order_depends_target_glad
+build CMakeFiles/glad.dir/third_party/glad/glad.c.o: C_COMPILER__glad_Debug /home/bruna/GameDev/guiplayground/third_party/glad/glad.c || cmake_object_order_depends_target_glad
   DEP_FILE = CMakeFiles/glad.dir/third_party/glad/glad.c.o.d
   FLAGS = -g
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glad
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glad
   OBJECT_DIR = CMakeFiles/glad.dir
   OBJECT_FILE_DIR = CMakeFiles/glad.dir/third_party/glad
 
@@ -201,12 +201,26 @@ build libglad.a: C_STATIC_LIBRARY_LINKER__glad_Debug CMakeFiles/glad.dir/third_p
 
 build cmake_object_order_depends_target_ImGuiExample: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_imgui cmake_object_order_depends_target_implot
 
-build CMakeFiles/ImGuiExample.dir/main.cpp.o: CXX_COMPILER__ImGuiExample_Debug /home/bruna/GameDev/guiPlayground/main.cpp || cmake_object_order_depends_target_ImGuiExample
-  DEP_FILE = CMakeFiles/ImGuiExample.dir/main.cpp.o.d
+build CMakeFiles/ImGuiExample.dir/src/GUIManager.cpp.o: CXX_COMPILER__ImGuiExample_Debug /home/bruna/GameDev/guiplayground/src/GUIManager.cpp || cmake_object_order_depends_target_ImGuiExample
+  DEP_FILE = CMakeFiles/ImGuiExample.dir/src/GUIManager.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/imgui -I/home/bruna/GameDev/guiPlayground/third_party/imgui/backends -I/home/bruna/GameDev/guiPlayground/third_party/implot -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glad
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/src -I/home/bruna/GameDev/guiplayground/third_party/imgui -I/home/bruna/GameDev/guiplayground/third_party/imgui/backends -I/home/bruna/GameDev/guiplayground/third_party/implot -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glad
   OBJECT_DIR = CMakeFiles/ImGuiExample.dir
-  OBJECT_FILE_DIR = CMakeFiles/ImGuiExample.dir
+  OBJECT_FILE_DIR = CMakeFiles/ImGuiExample.dir/src
+
+build CMakeFiles/ImGuiExample.dir/src/MenuSystem.cpp.o: CXX_COMPILER__ImGuiExample_Debug /home/bruna/GameDev/guiplayground/src/MenuSystem.cpp || cmake_object_order_depends_target_ImGuiExample
+  DEP_FILE = CMakeFiles/ImGuiExample.dir/src/MenuSystem.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/src -I/home/bruna/GameDev/guiplayground/third_party/imgui -I/home/bruna/GameDev/guiplayground/third_party/imgui/backends -I/home/bruna/GameDev/guiplayground/third_party/implot -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glad
+  OBJECT_DIR = CMakeFiles/ImGuiExample.dir
+  OBJECT_FILE_DIR = CMakeFiles/ImGuiExample.dir/src
+
+build CMakeFiles/ImGuiExample.dir/src/main.cpp.o: CXX_COMPILER__ImGuiExample_Debug /home/bruna/GameDev/guiplayground/src/main.cpp || cmake_object_order_depends_target_ImGuiExample
+  DEP_FILE = CMakeFiles/ImGuiExample.dir/src/main.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/src -I/home/bruna/GameDev/guiplayground/third_party/imgui -I/home/bruna/GameDev/guiplayground/third_party/imgui/backends -I/home/bruna/GameDev/guiplayground/third_party/implot -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glad
+  OBJECT_DIR = CMakeFiles/ImGuiExample.dir
+  OBJECT_FILE_DIR = CMakeFiles/ImGuiExample.dir/src
 
 
 # =============================================================================
@@ -216,7 +230,7 @@ build CMakeFiles/ImGuiExample.dir/main.cpp.o: CXX_COMPILER__ImGuiExample_Debug /
 #############################################
 # Link the executable ImGuiExample
 
-build ImGuiExample: CXX_EXECUTABLE_LINKER__ImGuiExample_Debug CMakeFiles/ImGuiExample.dir/main.cpp.o | libimgui.a libimplot.a third_party/glfw/src/libglfw3.a libglad.a /usr/lib/x86_64-linux-gnu/librt.a /usr/lib/x86_64-linux-gnu/libm.so || libglad.a libimgui.a libimplot.a third_party/glfw/src/libglfw3.a
+build ImGuiExample: CXX_EXECUTABLE_LINKER__ImGuiExample_Debug CMakeFiles/ImGuiExample.dir/src/GUIManager.cpp.o CMakeFiles/ImGuiExample.dir/src/MenuSystem.cpp.o CMakeFiles/ImGuiExample.dir/src/main.cpp.o | libimgui.a libimplot.a third_party/glfw/src/libglfw3.a libglad.a /usr/lib/x86_64-linux-gnu/librt.a /usr/lib/x86_64-linux-gnu/libm.so || libglad.a libimgui.a libimplot.a third_party/glfw/src/libglfw3.a
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = libimgui.a  libimplot.a  third_party/glfw/src/libglfw3.a  libglad.a  -lGL  -Wl,-Bstatic  -lrt  -Wl,-Bdynamic  -lm  -ldl
@@ -231,7 +245,7 @@ build ImGuiExample: CXX_EXECUTABLE_LINKER__ImGuiExample_Debug CMakeFiles/ImGuiEx
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -242,7 +256,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build && /usr/bin/cmake --regenerate-during-build -S/home/bruna/GameDev/guiPlayground -B/home/bruna/GameDev/guiPlayground/build
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build && /usr/bin/cmake --regenerate-during-build -S/home/bruna/GameDev/guiplayground -B/home/bruna/GameDev/guiplayground/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -260,7 +274,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -272,7 +286,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -284,7 +298,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -293,7 +307,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/bruna/GameDev/guiPlayground/CMakeLists.txt
+# /home/bruna/GameDev/guiplayground/CMakeLists.txt
 # =============================================================================
 
 
@@ -307,7 +321,7 @@ build third_party/glfw/uninstall: phony third_party/glfw/CMakeFiles/uninstall
 # Utility command for edit_cache
 
 build third_party/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -318,7 +332,7 @@ build third_party/glfw/edit_cache: phony third_party/glfw/CMakeFiles/edit_cache.
 # Utility command for rebuild_cache
 
 build third_party/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw && /usr/bin/cmake --regenerate-during-build -S/home/bruna/GameDev/guiPlayground -B/home/bruna/GameDev/guiPlayground/build
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw && /usr/bin/cmake --regenerate-during-build -S/home/bruna/GameDev/guiplayground -B/home/bruna/GameDev/guiplayground/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -336,7 +350,7 @@ build third_party/glfw/list_install_components: phony
 # Utility command for install
 
 build third_party/glfw/CMakeFiles/install.util: CUSTOM_COMMAND third_party/glfw/all
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -348,7 +362,7 @@ build third_party/glfw/install: phony third_party/glfw/CMakeFiles/install.util
 # Utility command for install/local
 
 build third_party/glfw/CMakeFiles/install/local.util: CUSTOM_COMMAND third_party/glfw/all
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -360,7 +374,7 @@ build third_party/glfw/install/local: phony third_party/glfw/CMakeFiles/install/
 # Utility command for install/strip
 
 build third_party/glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND third_party/glfw/all
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -372,11 +386,11 @@ build third_party/glfw/install/strip: phony third_party/glfw/CMakeFiles/install/
 # Custom command for third_party/glfw/CMakeFiles/uninstall
 
 build third_party/glfw/CMakeFiles/uninstall | ${cmake_ninja_workdir}third_party/glfw/CMakeFiles/uninstall: CUSTOM_COMMAND
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw && /usr/bin/cmake -P /home/bruna/GameDev/guiPlayground/build/third_party/glfw/cmake_uninstall.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw && /usr/bin/cmake -P /home/bruna/GameDev/guiplayground/build/third_party/glfw/cmake_uninstall.cmake
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/bruna/GameDev/guiPlayground/third_party/glfw/CMakeLists.txt
+# /home/bruna/GameDev/guiplayground/third_party/glfw/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -388,211 +402,211 @@ build third_party/glfw/CMakeFiles/uninstall | ${cmake_ninja_workdir}third_party/
 
 build cmake_object_order_depends_target_glfw: phony || third_party/glfw/src/fractional-scale-v1-client-protocol-code.h third_party/glfw/src/fractional-scale-v1-client-protocol.h third_party/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h third_party/glfw/src/idle-inhibit-unstable-v1-client-protocol.h third_party/glfw/src/pointer-constraints-unstable-v1-client-protocol-code.h third_party/glfw/src/pointer-constraints-unstable-v1-client-protocol.h third_party/glfw/src/relative-pointer-unstable-v1-client-protocol-code.h third_party/glfw/src/relative-pointer-unstable-v1-client-protocol.h third_party/glfw/src/viewporter-client-protocol-code.h third_party/glfw/src/viewporter-client-protocol.h third_party/glfw/src/wayland-client-protocol-code.h third_party/glfw/src/wayland-client-protocol.h third_party/glfw/src/xdg-activation-v1-client-protocol-code.h third_party/glfw/src/xdg-activation-v1-client-protocol.h third_party/glfw/src/xdg-decoration-unstable-v1-client-protocol-code.h third_party/glfw/src/xdg-decoration-unstable-v1-client-protocol.h third_party/glfw/src/xdg-shell-client-protocol-code.h third_party/glfw/src/xdg-shell-client-protocol.h
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/context.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/context.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/context.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/context.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/init.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/init.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/init.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/init.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/input.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/input.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/input.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/input.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/platform.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/platform.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/platform.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/platform.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/window.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/window.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/window.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/window.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/null_init.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/null_init.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/null_init.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/null_window.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/null_window.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/null_window.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/posix_module.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/posix_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/posix_time.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/posix_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/posix_thread.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/posix_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/x11_init.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/x11_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/x11_monitor.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/x11_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/x11_window.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/x11_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/xkb_unicode.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/xkb_unicode.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/glx_context.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/glx_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/wl_init.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/wl_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/wl_monitor.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/wl_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/wl_window.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/wl_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/linux_joystick.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/linux_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
-build third_party/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiPlayground/third_party/glfw/src/posix_poll.c || cmake_object_order_depends_target_glfw
+build third_party/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o: C_COMPILER__glfw_Debug /home/bruna/GameDev/guiplayground/third_party/glfw/src/posix_poll.c || cmake_object_order_depends_target_glfw
   DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
   DEP_FILE = third_party/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o.d
   FLAGS = -g -fPIC -Wall -std=c99
-  INCLUDES = -I/home/bruna/GameDev/guiPlayground/third_party/glfw/include -I/home/bruna/GameDev/guiPlayground/third_party/glfw/src -I/home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+  INCLUDES = -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glfw/src -I/home/bruna/GameDev/guiplayground/build/third_party/glfw/src
   OBJECT_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = third_party/glfw/src/CMakeFiles/glfw.dir
 
@@ -623,7 +637,7 @@ build third_party/glfw/src/update_mappings: phony third_party/glfw/src/CMakeFile
 # Utility command for edit_cache
 
 build third_party/glfw/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -634,7 +648,7 @@ build third_party/glfw/src/edit_cache: phony third_party/glfw/src/CMakeFiles/edi
 # Utility command for rebuild_cache
 
 build third_party/glfw/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/cmake --regenerate-during-build -S/home/bruna/GameDev/guiPlayground -B/home/bruna/GameDev/guiPlayground/build
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/cmake --regenerate-during-build -S/home/bruna/GameDev/guiplayground -B/home/bruna/GameDev/guiplayground/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -652,7 +666,7 @@ build third_party/glfw/src/list_install_components: phony
 # Utility command for install
 
 build third_party/glfw/src/CMakeFiles/install.util: CUSTOM_COMMAND third_party/glfw/src/all
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -664,7 +678,7 @@ build third_party/glfw/src/install: phony third_party/glfw/src/CMakeFiles/instal
 # Utility command for install/local
 
 build third_party/glfw/src/CMakeFiles/install/local.util: CUSTOM_COMMAND third_party/glfw/src/all
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -676,7 +690,7 @@ build third_party/glfw/src/install/local: phony third_party/glfw/src/CMakeFiles/
 # Utility command for install/strip
 
 build third_party/glfw/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND third_party/glfw/src/all
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -688,7 +702,7 @@ build third_party/glfw/src/install/strip: phony third_party/glfw/src/CMakeFiles/
 # Custom command for third_party/glfw/src/wayland-client-protocol.h
 
 build third_party/glfw/src/wayland-client-protocol.h | ${cmake_ninja_workdir}third_party/glfw/src/wayland-client-protocol.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/wayland.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/wayland.xml wayland-client-protocol.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/wayland.xml wayland-client-protocol.h
   DESC = Generating wayland-client-protocol.h
   restat = 1
 
@@ -697,7 +711,7 @@ build third_party/glfw/src/wayland-client-protocol.h | ${cmake_ninja_workdir}thi
 # Custom command for third_party/glfw/src/wayland-client-protocol-code.h
 
 build third_party/glfw/src/wayland-client-protocol-code.h | ${cmake_ninja_workdir}third_party/glfw/src/wayland-client-protocol-code.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/wayland.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/wayland.xml wayland-client-protocol-code.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/wayland.xml wayland-client-protocol-code.h
   DESC = Generating wayland-client-protocol-code.h
   restat = 1
 
@@ -706,7 +720,7 @@ build third_party/glfw/src/wayland-client-protocol-code.h | ${cmake_ninja_workdi
 # Custom command for third_party/glfw/src/viewporter-client-protocol.h
 
 build third_party/glfw/src/viewporter-client-protocol.h | ${cmake_ninja_workdir}third_party/glfw/src/viewporter-client-protocol.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/viewporter.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/viewporter.xml viewporter-client-protocol.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/viewporter.xml viewporter-client-protocol.h
   DESC = Generating viewporter-client-protocol.h
   restat = 1
 
@@ -715,7 +729,7 @@ build third_party/glfw/src/viewporter-client-protocol.h | ${cmake_ninja_workdir}
 # Custom command for third_party/glfw/src/viewporter-client-protocol-code.h
 
 build third_party/glfw/src/viewporter-client-protocol-code.h | ${cmake_ninja_workdir}third_party/glfw/src/viewporter-client-protocol-code.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/viewporter.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/viewporter.xml viewporter-client-protocol-code.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/viewporter.xml viewporter-client-protocol-code.h
   DESC = Generating viewporter-client-protocol-code.h
   restat = 1
 
@@ -724,7 +738,7 @@ build third_party/glfw/src/viewporter-client-protocol-code.h | ${cmake_ninja_wor
 # Custom command for third_party/glfw/src/xdg-shell-client-protocol.h
 
 build third_party/glfw/src/xdg-shell-client-protocol.h | ${cmake_ninja_workdir}third_party/glfw/src/xdg-shell-client-protocol.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/xdg-shell.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/xdg-shell.xml xdg-shell-client-protocol.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/xdg-shell.xml xdg-shell-client-protocol.h
   DESC = Generating xdg-shell-client-protocol.h
   restat = 1
 
@@ -733,7 +747,7 @@ build third_party/glfw/src/xdg-shell-client-protocol.h | ${cmake_ninja_workdir}t
 # Custom command for third_party/glfw/src/xdg-shell-client-protocol-code.h
 
 build third_party/glfw/src/xdg-shell-client-protocol-code.h | ${cmake_ninja_workdir}third_party/glfw/src/xdg-shell-client-protocol-code.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/xdg-shell.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/xdg-shell.xml xdg-shell-client-protocol-code.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/xdg-shell.xml xdg-shell-client-protocol-code.h
   DESC = Generating xdg-shell-client-protocol-code.h
   restat = 1
 
@@ -742,7 +756,7 @@ build third_party/glfw/src/xdg-shell-client-protocol-code.h | ${cmake_ninja_work
 # Custom command for third_party/glfw/src/idle-inhibit-unstable-v1-client-protocol.h
 
 build third_party/glfw/src/idle-inhibit-unstable-v1-client-protocol.h | ${cmake_ninja_workdir}third_party/glfw/src/idle-inhibit-unstable-v1-client-protocol.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/idle-inhibit-unstable-v1.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/idle-inhibit-unstable-v1.xml idle-inhibit-unstable-v1-client-protocol.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/idle-inhibit-unstable-v1.xml idle-inhibit-unstable-v1-client-protocol.h
   DESC = Generating idle-inhibit-unstable-v1-client-protocol.h
   restat = 1
 
@@ -751,7 +765,7 @@ build third_party/glfw/src/idle-inhibit-unstable-v1-client-protocol.h | ${cmake_
 # Custom command for third_party/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h
 
 build third_party/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h | ${cmake_ninja_workdir}third_party/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/idle-inhibit-unstable-v1.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/idle-inhibit-unstable-v1.xml idle-inhibit-unstable-v1-client-protocol-code.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/idle-inhibit-unstable-v1.xml idle-inhibit-unstable-v1-client-protocol-code.h
   DESC = Generating idle-inhibit-unstable-v1-client-protocol-code.h
   restat = 1
 
@@ -760,7 +774,7 @@ build third_party/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h | ${c
 # Custom command for third_party/glfw/src/pointer-constraints-unstable-v1-client-protocol.h
 
 build third_party/glfw/src/pointer-constraints-unstable-v1-client-protocol.h | ${cmake_ninja_workdir}third_party/glfw/src/pointer-constraints-unstable-v1-client-protocol.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/pointer-constraints-unstable-v1.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/pointer-constraints-unstable-v1.xml pointer-constraints-unstable-v1-client-protocol.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/pointer-constraints-unstable-v1.xml pointer-constraints-unstable-v1-client-protocol.h
   DESC = Generating pointer-constraints-unstable-v1-client-protocol.h
   restat = 1
 
@@ -769,7 +783,7 @@ build third_party/glfw/src/pointer-constraints-unstable-v1-client-protocol.h | $
 # Custom command for third_party/glfw/src/pointer-constraints-unstable-v1-client-protocol-code.h
 
 build third_party/glfw/src/pointer-constraints-unstable-v1-client-protocol-code.h | ${cmake_ninja_workdir}third_party/glfw/src/pointer-constraints-unstable-v1-client-protocol-code.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/pointer-constraints-unstable-v1.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/pointer-constraints-unstable-v1.xml pointer-constraints-unstable-v1-client-protocol-code.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/pointer-constraints-unstable-v1.xml pointer-constraints-unstable-v1-client-protocol-code.h
   DESC = Generating pointer-constraints-unstable-v1-client-protocol-code.h
   restat = 1
 
@@ -778,7 +792,7 @@ build third_party/glfw/src/pointer-constraints-unstable-v1-client-protocol-code.
 # Custom command for third_party/glfw/src/relative-pointer-unstable-v1-client-protocol.h
 
 build third_party/glfw/src/relative-pointer-unstable-v1-client-protocol.h | ${cmake_ninja_workdir}third_party/glfw/src/relative-pointer-unstable-v1-client-protocol.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/relative-pointer-unstable-v1.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/relative-pointer-unstable-v1.xml relative-pointer-unstable-v1-client-protocol.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/relative-pointer-unstable-v1.xml relative-pointer-unstable-v1-client-protocol.h
   DESC = Generating relative-pointer-unstable-v1-client-protocol.h
   restat = 1
 
@@ -787,7 +801,7 @@ build third_party/glfw/src/relative-pointer-unstable-v1-client-protocol.h | ${cm
 # Custom command for third_party/glfw/src/relative-pointer-unstable-v1-client-protocol-code.h
 
 build third_party/glfw/src/relative-pointer-unstable-v1-client-protocol-code.h | ${cmake_ninja_workdir}third_party/glfw/src/relative-pointer-unstable-v1-client-protocol-code.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/relative-pointer-unstable-v1.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/relative-pointer-unstable-v1.xml relative-pointer-unstable-v1-client-protocol-code.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/relative-pointer-unstable-v1.xml relative-pointer-unstable-v1-client-protocol-code.h
   DESC = Generating relative-pointer-unstable-v1-client-protocol-code.h
   restat = 1
 
@@ -796,7 +810,7 @@ build third_party/glfw/src/relative-pointer-unstable-v1-client-protocol-code.h |
 # Custom command for third_party/glfw/src/fractional-scale-v1-client-protocol.h
 
 build third_party/glfw/src/fractional-scale-v1-client-protocol.h | ${cmake_ninja_workdir}third_party/glfw/src/fractional-scale-v1-client-protocol.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/fractional-scale-v1.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/fractional-scale-v1.xml fractional-scale-v1-client-protocol.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/fractional-scale-v1.xml fractional-scale-v1-client-protocol.h
   DESC = Generating fractional-scale-v1-client-protocol.h
   restat = 1
 
@@ -805,7 +819,7 @@ build third_party/glfw/src/fractional-scale-v1-client-protocol.h | ${cmake_ninja
 # Custom command for third_party/glfw/src/fractional-scale-v1-client-protocol-code.h
 
 build third_party/glfw/src/fractional-scale-v1-client-protocol-code.h | ${cmake_ninja_workdir}third_party/glfw/src/fractional-scale-v1-client-protocol-code.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/fractional-scale-v1.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/fractional-scale-v1.xml fractional-scale-v1-client-protocol-code.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/fractional-scale-v1.xml fractional-scale-v1-client-protocol-code.h
   DESC = Generating fractional-scale-v1-client-protocol-code.h
   restat = 1
 
@@ -814,7 +828,7 @@ build third_party/glfw/src/fractional-scale-v1-client-protocol-code.h | ${cmake_
 # Custom command for third_party/glfw/src/xdg-activation-v1-client-protocol.h
 
 build third_party/glfw/src/xdg-activation-v1-client-protocol.h | ${cmake_ninja_workdir}third_party/glfw/src/xdg-activation-v1-client-protocol.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/xdg-activation-v1.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/xdg-activation-v1.xml xdg-activation-v1-client-protocol.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/xdg-activation-v1.xml xdg-activation-v1-client-protocol.h
   DESC = Generating xdg-activation-v1-client-protocol.h
   restat = 1
 
@@ -823,7 +837,7 @@ build third_party/glfw/src/xdg-activation-v1-client-protocol.h | ${cmake_ninja_w
 # Custom command for third_party/glfw/src/xdg-activation-v1-client-protocol-code.h
 
 build third_party/glfw/src/xdg-activation-v1-client-protocol-code.h | ${cmake_ninja_workdir}third_party/glfw/src/xdg-activation-v1-client-protocol-code.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/xdg-activation-v1.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/xdg-activation-v1.xml xdg-activation-v1-client-protocol-code.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/xdg-activation-v1.xml xdg-activation-v1-client-protocol-code.h
   DESC = Generating xdg-activation-v1-client-protocol-code.h
   restat = 1
 
@@ -832,7 +846,7 @@ build third_party/glfw/src/xdg-activation-v1-client-protocol-code.h | ${cmake_ni
 # Custom command for third_party/glfw/src/xdg-decoration-unstable-v1-client-protocol.h
 
 build third_party/glfw/src/xdg-decoration-unstable-v1-client-protocol.h | ${cmake_ninja_workdir}third_party/glfw/src/xdg-decoration-unstable-v1-client-protocol.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/xdg-decoration-unstable-v1.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/xdg-decoration-unstable-v1.xml xdg-decoration-unstable-v1-client-protocol.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner client-header /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/xdg-decoration-unstable-v1.xml xdg-decoration-unstable-v1-client-protocol.h
   DESC = Generating xdg-decoration-unstable-v1-client-protocol.h
   restat = 1
 
@@ -841,7 +855,7 @@ build third_party/glfw/src/xdg-decoration-unstable-v1-client-protocol.h | ${cmak
 # Custom command for third_party/glfw/src/xdg-decoration-unstable-v1-client-protocol-code.h
 
 build third_party/glfw/src/xdg-decoration-unstable-v1-client-protocol-code.h | ${cmake_ninja_workdir}third_party/glfw/src/xdg-decoration-unstable-v1-client-protocol-code.h: CUSTOM_COMMAND ../third_party/glfw/deps/wayland/xdg-decoration-unstable-v1.xml
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiPlayground/third_party/glfw/deps/wayland/xdg-decoration-unstable-v1.xml xdg-decoration-unstable-v1-client-protocol-code.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/src && /usr/bin/wayland-scanner private-code /home/bruna/GameDev/guiplayground/third_party/glfw/deps/wayland/xdg-decoration-unstable-v1.xml xdg-decoration-unstable-v1-client-protocol-code.h
   DESC = Generating xdg-decoration-unstable-v1-client-protocol-code.h
   restat = 1
 
@@ -850,12 +864,12 @@ build third_party/glfw/src/xdg-decoration-unstable-v1-client-protocol-code.h | $
 # Custom command for third_party/glfw/src/CMakeFiles/update_mappings
 
 build third_party/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}third_party/glfw/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/third_party/glfw/src && /usr/bin/cmake -P /home/bruna/GameDev/guiPlayground/third_party/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+  COMMAND = cd /home/bruna/GameDev/guiplayground/third_party/glfw/src && /usr/bin/cmake -P /home/bruna/GameDev/guiplayground/third_party/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
   DESC = Updating gamepad mappings from upstream repository
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/bruna/GameDev/guiPlayground/third_party/glfw/CMakeLists.txt
+# /home/bruna/GameDev/guiplayground/third_party/glfw/CMakeLists.txt
 # =============================================================================
 
 
@@ -863,7 +877,7 @@ build third_party/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}th
 # Utility command for edit_cache
 
 build third_party/glfw/docs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/docs && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/docs && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -874,7 +888,7 @@ build third_party/glfw/docs/edit_cache: phony third_party/glfw/docs/CMakeFiles/e
 # Utility command for rebuild_cache
 
 build third_party/glfw/docs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/docs && /usr/bin/cmake --regenerate-during-build -S/home/bruna/GameDev/guiPlayground -B/home/bruna/GameDev/guiPlayground/build
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/docs && /usr/bin/cmake --regenerate-during-build -S/home/bruna/GameDev/guiplayground -B/home/bruna/GameDev/guiplayground/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -892,7 +906,7 @@ build third_party/glfw/docs/list_install_components: phony
 # Utility command for install
 
 build third_party/glfw/docs/CMakeFiles/install.util: CUSTOM_COMMAND third_party/glfw/docs/all
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/docs && /usr/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/docs && /usr/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -904,7 +918,7 @@ build third_party/glfw/docs/install: phony third_party/glfw/docs/CMakeFiles/inst
 # Utility command for install/local
 
 build third_party/glfw/docs/CMakeFiles/install/local.util: CUSTOM_COMMAND third_party/glfw/docs/all
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/docs && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/docs && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -916,7 +930,7 @@ build third_party/glfw/docs/install/local: phony third_party/glfw/docs/CMakeFile
 # Utility command for install/strip
 
 build third_party/glfw/docs/CMakeFiles/install/strip.util: CUSTOM_COMMAND third_party/glfw/docs/all
-  COMMAND = cd /home/bruna/GameDev/guiPlayground/build/third_party/glfw/docs && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /home/bruna/GameDev/guiplayground/build/third_party/glfw/docs && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -946,28 +960,28 @@ build update_mappings: phony third_party/glfw/src/update_mappings
 # =============================================================================
 
 #############################################
-# Folder: /home/bruna/GameDev/guiPlayground/build
+# Folder: /home/bruna/GameDev/guiplayground/build
 
 build all: phony libimgui.a libimplot.a libglad.a ImGuiExample third_party/glfw/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/bruna/GameDev/guiPlayground/build/third_party/glfw
+# Folder: /home/bruna/GameDev/guiplayground/build/third_party/glfw
 
 build third_party/glfw/all: phony third_party/glfw/src/all third_party/glfw/docs/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/bruna/GameDev/guiPlayground/build/third_party/glfw/docs
+# Folder: /home/bruna/GameDev/guiplayground/build/third_party/glfw/docs
 
 build third_party/glfw/docs/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: /home/bruna/GameDev/guiPlayground/build/third_party/glfw/src
+# Folder: /home/bruna/GameDev/guiplayground/build/third_party/glfw/src
 
 build third_party/glfw/src/all: phony third_party/glfw/src/libglfw3.a
 
