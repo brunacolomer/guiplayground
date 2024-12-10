@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/ImGuiExample.dir/src/GUIManager.cpp.o CMakeFiles/ImGuiExample.dir/src/MenuSystem.cpp.o CMakeFiles/ImGuiExample.dir/src/PlotSystem.cpp.o CMakeFiles/ImGuiExample.dir/src/main.cpp.o -o ImGuiExample  libimgui.a libimplot.a third_party/glfw/src/libglfw3.a libglad.a -lGL -Wl,-Bstatic -lrt -Wl,-Bdynamic -lm -ldl 
