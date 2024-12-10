@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/threads.dir/threads.c.o CMakeFiles/threads.dir/__/deps/tinycthread.c.o -o threads  -Wl,-rpath,/home/bruna/GameDev/glfw-3.4/build/src ../src/libglfw.so.3.4 -lm /usr/lib/x86_64-linux-gnu/librt.a 

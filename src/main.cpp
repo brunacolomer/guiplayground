@@ -5,7 +5,8 @@
 #include <cstdio>
 #include "GUIManager.hpp"
 #include "MenuSystem.hpp"
-
+#include "implot.h"
+#include "PlotSystem.hpp"
 
 int main() {
     // Inicialitza GLFW
@@ -28,20 +29,30 @@ int main() {
 
     // Inicialitza ImGui
     GUIManager guiManager(window);
+    ImPlot::CreateContext(); // <-- Afegeix la inicialització del context d'ImPlot
     MenuSystem menu;
-   
+    PlotSystem plotSystem;
+
+    // Carrega el fitxer CSV
+    plotSystem.loadCSV("../data/Jano.csv");
+
     // Bucle principal
     while (!glfwWindowShouldClose(window)) {
         // Processa esdeveniments de GLFW
         glfwPollEvents();
         guiManager.beginFrame();
+
         // Contingut d'ImGui
-        ImGui::Begin("Hello, ImGui!"); // Comença una finestra
-        ImGui::Text("Això és un exemple bàsic."); // Text simple
-        if (ImGui::Button("Click me!")) { // Botó interactiu
-            printf("Botó clicat!\n");
+        ImGui::Begin("Menu");
+        if (ImGui::Button("Inicia la gràfica")) {
+            plotSystem.startPlot();
         }
-        ImGui::End(); // Acaba la finestra
+        ImGui::End();
+
+        // Actualitza i mostra la gràfica
+        plotSystem.updatePlot();
+        plotSystem.renderPlot();
+
         menu.render();
 
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
@@ -50,6 +61,8 @@ int main() {
         glfwSwapBuffers(window);
     }
 
+    // Allibera recursos
+    ImPlot::DestroyContext(); // <-- Destrueix el context d'ImPlot
     guiManager.shutdown();
     glfwDestroyWindow(window);
     glfwTerminate();

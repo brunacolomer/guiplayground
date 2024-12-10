@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/reopen.dir/reopen.c.o -o reopen  -Wl,-rpath,/home/bruna/GameDev/glfw-3.4/build/src ../src/libglfw.so.3.4 -lm 

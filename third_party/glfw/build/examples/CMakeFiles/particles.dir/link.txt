@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/particles.dir/particles.c.o CMakeFiles/particles.dir/__/deps/tinycthread.c.o CMakeFiles/particles.dir/__/deps/getopt.c.o -o particles  -Wl,-rpath,/home/bruna/GameDev/glfw-3.4/build/src ../src/libglfw.so.3.4 -lm /usr/lib/x86_64-linux-gnu/librt.a 

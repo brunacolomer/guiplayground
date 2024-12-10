@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/timeout.dir/timeout.c.o -o timeout  -Wl,-rpath,/home/bruna/GameDev/glfw-3.4/build/src ../src/libglfw.so.3.4 -lm 
