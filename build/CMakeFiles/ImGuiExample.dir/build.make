@@ -144,6 +144,7 @@ ImGuiExample: libimgui.a
 ImGuiExample: libimplot.a
 ImGuiExample: third_party/glfw/src/libglfw3.a
 ImGuiExample: libglad.a
+ImGuiExample: libnfd.a
 ImGuiExample: /usr/lib/x86_64-linux-gnu/librt.a
 ImGuiExample: /usr/lib/x86_64-linux-gnu/libm.so
 ImGuiExample: CMakeFiles/ImGuiExample.dir/link.txt

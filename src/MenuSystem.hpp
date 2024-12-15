@@ -1,9 +1,16 @@
-#ifndef MENU_SYSTEM_HPP
-#define MENU_SYSTEM_HPP
+#ifndef MENUSYSTEM_HPP
+#define MENUSYSTEM_HPP
+
+#include <string>
+class PlotSystem; // Forward declaration
 
 class MenuSystem {
 public:
-    void render(); // Mètode que dibuixa el menú
+    MenuSystem(PlotSystem* plotSystem);
+    void render();
+private:
+    void openCSVFile();
+    PlotSystem* m_plotSystem; // Referència a PlotSystem per comunicar-se
 };
 
-#endif // MENU_SYSTEM_HPP
+#endif // MENUSYSTEM_HPP

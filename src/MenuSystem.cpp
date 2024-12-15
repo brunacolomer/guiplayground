@@ -1,19 +1,17 @@
-#include "imgui.h"
 #include "MenuSystem.hpp"
-#include <stdio.h>
+#include "PlotSystem.hpp"
+#include <cstdio>
+#include "imgui.h"
+#include "nfd.h" // Llibreria Native File Dialog (cal afegir-la al projecte)
+
+MenuSystem::MenuSystem(PlotSystem* plotSystem) : m_plotSystem(plotSystem) {}
 
 void MenuSystem::render() {
     // Comença la barra de menú principal
     if (ImGui::BeginMainMenuBar()) {
         if (ImGui::BeginMenu("Fitxer")) {
-            if (ImGui::MenuItem("Nou projecte", "Ctrl+N")) {
-                printf("Nou projecte creat!\n");
-            }
-            if (ImGui::MenuItem("Obrir projecte", "Ctrl+O")) {
-                printf("Projecte obert!\n");
-            }
-            if (ImGui::MenuItem("Guardar projecte", "Ctrl+S")) {
-                printf("Projecte guardat!\n");
+            if (ImGui::MenuItem("Obrir fitxer CSV...", "Ctrl+O")) {
+                openCSVFile(); // Funció per obrir el quadre de diàleg i carregar el fitxer
             }
             if (ImGui::MenuItem("Sortir", "Ctrl+Q")) {
                 printf("Sortint...\n");
@@ -21,23 +19,25 @@ void MenuSystem::render() {
             ImGui::EndMenu();
         }
 
-        if (ImGui::BeginMenu("Eines")) {
-            if (ImGui::MenuItem("Opcions")) {
-                printf("Obrint opcions...\n");
-            }
-            ImGui::EndMenu();
-        }
-
-        if (ImGui::BeginMenu("Ajuda")) {
-            if (ImGui::MenuItem("Documentació")) {
-                printf("Obrint documentació...\n");
-            }
-            if (ImGui::MenuItem("Sobre...")) {
-                printf("Mostrant informació sobre l'aplicació...\n");
-            }
-            ImGui::EndMenu();
-        }
-
         ImGui::EndMainMenuBar(); // Finalitza la barra de menú principal
+    }
+}
+
+void MenuSystem::openCSVFile() {
+    nfdchar_t* outPath = nullptr;
+    nfdresult_t result = NFD_OpenDialog("csv", nullptr, &outPath);
+
+    if (result == NFD_OKAY) {
+        printf("Fitxer seleccionat: %s\n", outPath);
+        if (m_plotSystem->loadCSV(outPath)) {
+            printf("Fitxer CSV carregat correctament!\n");
+        } else {
+            printf("Error en carregar el fitxer CSV!\n");
+        }
+        free(outPath); // Allibera la memòria del camí retornat
+    } else if (result == NFD_CANCEL) {
+        printf("Selecció de fitxer cancel·lada.\n");
+    } else {
+        printf("Error al seleccionar el fitxer: %s\n", NFD_GetError());
     }
 }

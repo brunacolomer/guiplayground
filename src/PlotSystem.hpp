@@ -13,7 +13,7 @@ struct DataPoint {
 class PlotSystem {
 public:
 
-    void loadCSV(const std::string& filepath); // Carrega el CSV
+    bool loadCSV(const std::string& filepath); // Carrega el CSV
     void startPlot();                          // Inicia la gràfica
     void updatePlot();                         // Actualitza la gràfica a temps real
     void renderPlot();                         // Renderitza la gràfica
@@ -24,6 +24,7 @@ private:
     bool isPlotting = false;                   // Estat de la gràfica
     float elapsedTime = 0.0f;                  // Temps transcorregut
     std::chrono::steady_clock::time_point startTime; // Temps d'inici
+    int lastIndex = 0;                         // Últim índex processat
 };
 
 #endif

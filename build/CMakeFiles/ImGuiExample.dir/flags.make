@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/bruna/GameDev/guiplayground/src -I/home/bruna/GameDev/guiplayground/third_party/imgui -I/home/bruna/GameDev/guiplayground/third_party/imgui/backends -I/home/bruna/GameDev/guiplayground/third_party/implot -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glad
+CXX_INCLUDES = -I/home/bruna/GameDev/guiplayground/src -I/home/bruna/GameDev/guiplayground/third_party/imgui -I/home/bruna/GameDev/guiplayground/third_party/imgui/backends -I/home/bruna/GameDev/guiplayground/third_party/implot -I/home/bruna/GameDev/guiplayground/third_party/glfw/include -I/home/bruna/GameDev/guiplayground/third_party/glad -I/home/bruna/GameDev/guiplayground/third_party/nfd/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
 
 CXX_FLAGS = -g -std=gnu++17
 

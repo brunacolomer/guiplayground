@@ -20,6 +20,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/bruna/GameDev/guiplayground/build/CMakeFiles/implot.dir/DependInfo.cmake"
   "/home/bruna/GameDev/guiplayground/build/third_party/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "/home/bruna/GameDev/guiplayground/build/CMakeFiles/glad.dir/DependInfo.cmake"
+  "/home/bruna/GameDev/guiplayground/build/CMakeFiles/nfd.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

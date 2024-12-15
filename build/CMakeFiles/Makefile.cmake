@@ -38,6 +38,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
   "/usr/share/cmake-3.22/Modules/FindDoxygen.cmake"
+  "/usr/share/cmake-3.22/Modules/FindFontconfig.cmake"
+  "/usr/share/cmake-3.22/Modules/FindFreetype.cmake"
   "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake"
@@ -50,6 +52,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake"
   "/usr/share/cmake-3.22/Modules/WriteBasicConfigVersionFile.cmake"
   )
 
@@ -76,6 +79,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/imgui.dir/DependInfo.cmake"
   "CMakeFiles/implot.dir/DependInfo.cmake"
   "CMakeFiles/glad.dir/DependInfo.cmake"
+  "CMakeFiles/nfd.dir/DependInfo.cmake"
   "CMakeFiles/ImGuiExample.dir/DependInfo.cmake"
   "third_party/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "third_party/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"

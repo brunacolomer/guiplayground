@@ -201,6 +201,19 @@ glad/fast:
 .PHONY : glad/fast
 
 #=============================================================================
+# Target rules for targets named nfd
+
+# Build rule for target.
+nfd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nfd
+.PHONY : nfd
+
+# fast build rule for target.
+nfd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nfd.dir/build.make CMakeFiles/nfd.dir/build
+.PHONY : nfd/fast
+
+#=============================================================================
 # Target rules for targets named ImGuiExample
 
 # Build rule for target.
@@ -612,6 +625,54 @@ third_party/implot/implot_items.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/implot.dir/build.make CMakeFiles/implot.dir/third_party/implot/implot_items.cpp.s
 .PHONY : third_party/implot/implot_items.cpp.s
 
+third_party/nfd/nfd_common.o: third_party/nfd/nfd_common.c.o
+.PHONY : third_party/nfd/nfd_common.o
+
+# target to build an object file
+third_party/nfd/nfd_common.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nfd.dir/build.make CMakeFiles/nfd.dir/third_party/nfd/nfd_common.c.o
+.PHONY : third_party/nfd/nfd_common.c.o
+
+third_party/nfd/nfd_common.i: third_party/nfd/nfd_common.c.i
+.PHONY : third_party/nfd/nfd_common.i
+
+# target to preprocess a source file
+third_party/nfd/nfd_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nfd.dir/build.make CMakeFiles/nfd.dir/third_party/nfd/nfd_common.c.i
+.PHONY : third_party/nfd/nfd_common.c.i
+
+third_party/nfd/nfd_common.s: third_party/nfd/nfd_common.c.s
+.PHONY : third_party/nfd/nfd_common.s
+
+# target to generate assembly for a file
+third_party/nfd/nfd_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nfd.dir/build.make CMakeFiles/nfd.dir/third_party/nfd/nfd_common.c.s
+.PHONY : third_party/nfd/nfd_common.c.s
+
+third_party/nfd/nfd_gtk.o: third_party/nfd/nfd_gtk.c.o
+.PHONY : third_party/nfd/nfd_gtk.o
+
+# target to build an object file
+third_party/nfd/nfd_gtk.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nfd.dir/build.make CMakeFiles/nfd.dir/third_party/nfd/nfd_gtk.c.o
+.PHONY : third_party/nfd/nfd_gtk.c.o
+
+third_party/nfd/nfd_gtk.i: third_party/nfd/nfd_gtk.c.i
+.PHONY : third_party/nfd/nfd_gtk.i
+
+# target to preprocess a source file
+third_party/nfd/nfd_gtk.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nfd.dir/build.make CMakeFiles/nfd.dir/third_party/nfd/nfd_gtk.c.i
+.PHONY : third_party/nfd/nfd_gtk.c.i
+
+third_party/nfd/nfd_gtk.s: third_party/nfd/nfd_gtk.c.s
+.PHONY : third_party/nfd/nfd_gtk.s
+
+# target to generate assembly for a file
+third_party/nfd/nfd_gtk.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nfd.dir/build.make CMakeFiles/nfd.dir/third_party/nfd/nfd_gtk.c.s
+.PHONY : third_party/nfd/nfd_gtk.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -631,6 +692,7 @@ help:
 	@echo "... glfw"
 	@echo "... imgui"
 	@echo "... implot"
+	@echo "... nfd"
 	@echo "... src/GUIManager.o"
 	@echo "... src/GUIManager.i"
 	@echo "... src/GUIManager.s"
@@ -676,6 +738,12 @@ help:
 	@echo "... third_party/implot/implot_items.o"
 	@echo "... third_party/implot/implot_items.i"
 	@echo "... third_party/implot/implot_items.s"
+	@echo "... third_party/nfd/nfd_common.o"
+	@echo "... third_party/nfd/nfd_common.i"
+	@echo "... third_party/nfd/nfd_common.s"
+	@echo "... third_party/nfd/nfd_gtk.o"
+	@echo "... third_party/nfd/nfd_gtk.i"
+	@echo "... third_party/nfd/nfd_gtk.s"
 .PHONY : help
 
 
