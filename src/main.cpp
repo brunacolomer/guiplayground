@@ -37,9 +37,9 @@ int main() {
     MenuSystem menu(&plotSystem);
 
     // Carrega el fitxer CSV
-    if (!plotSystem.loadCSV("../data/Jano.csv")) {
+    /*if (!plotSystem.loadCSV("../data/Jano.csv")) {
         fprintf(stderr, "Error: No s'ha pogut carregar el fitxer CSV\n");
-    }
+    }*/
 
     // Bucle principal
     while (!glfwWindowShouldClose(window)) {

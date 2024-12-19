@@ -1,6 +1,7 @@
 #include "MenuSystem.hpp"
 #include "PlotSystem.hpp"
 #include <cstdio>
+#include <thread>
 #include "imgui.h"
 #include "nfd.h" // Llibreria Native File Dialog (cal afegir-la al projecte)
 
@@ -24,20 +25,23 @@ void MenuSystem::render() {
 }
 
 void MenuSystem::openCSVFile() {
-    nfdchar_t* outPath = nullptr;
-    nfdresult_t result = NFD_OpenDialog("csv", nullptr, &outPath);
+    std::thread([this] {
+        nfdchar_t* outPath = nullptr;
+        nfdresult_t result = NFD_OpenDialog("csv", nullptr, &outPath);
+        if (result == NFD_OKAY) {
+            printf("Fitxer seleccionat: %s\n", outPath);
+            if (!m_plotSystem->loadCSV(outPath)) {
+                fprintf(stderr, "Error: No s'ha pogut carregar el fitxer CSV\n");
+            } else {
+                printf("Fitxer CSV carregat correctament\n");
+            }
 
-    if (result == NFD_OKAY) {
-        printf("Fitxer seleccionat: %s\n", outPath);
-        if (m_plotSystem->loadCSV(outPath)) {
-            printf("Fitxer CSV carregat correctament!\n");
+            free(outPath);
+        } else if (result == NFD_CANCEL) {
+            printf("Selecció cancel·lada.\n");
         } else {
-            printf("Error en carregar el fitxer CSV!\n");
+            printf("Error: %s\n", NFD_GetError());
         }
-        free(outPath); // Allibera la memòria del camí retornat
-    } else if (result == NFD_CANCEL) {
-        printf("Selecció de fitxer cancel·lada.\n");
-    } else {
-        printf("Error al seleccionar el fitxer: %s\n", NFD_GetError());
-    }
+    }).detach();
 }
+

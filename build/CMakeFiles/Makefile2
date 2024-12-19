@@ -242,11 +242,11 @@ CMakeFiles/nfd.dir/clean:
 # Target rules for target CMakeFiles/ImGuiExample.dir
 
 # All Build rule for target.
-CMakeFiles/ImGuiExample.dir/all: CMakeFiles/glad.dir/all
 CMakeFiles/ImGuiExample.dir/all: CMakeFiles/nfd.dir/all
 CMakeFiles/ImGuiExample.dir/all: third_party/glfw/src/CMakeFiles/glfw.dir/all
 CMakeFiles/ImGuiExample.dir/all: CMakeFiles/imgui.dir/all
 CMakeFiles/ImGuiExample.dir/all: CMakeFiles/implot.dir/all
+CMakeFiles/ImGuiExample.dir/all: CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiExample.dir/build.make CMakeFiles/ImGuiExample.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImGuiExample.dir/build.make CMakeFiles/ImGuiExample.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bruna/GameDev/guiplayground/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target ImGuiExample"
